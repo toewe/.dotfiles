@@ -1,0 +1,19 @@
+[user]
+	name = Simon Baumann
+	email = simon.baumann@hhi-extern.fraunhofer.de
+[core]
+	excludesfile = ~/.gitignore_global
+[diff]
+	submodule = log
+[fetch]
+	recurseSubmodules = on-demand
+[push]
+	recurseSubmodules = on-demand
+[status]
+	submoduleSummary = true
+[alias]
+	siupdate = submodule update --init
+	smupdate = submodule update --remote --merge
+	l = !git log --all --decorate --oneline --graph
+	s = !git status
+        acm = !git add -A && git commit -m
