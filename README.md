@@ -1,1 +1,1 @@
-# gleaned .dotfiles
+# gleaned dotfiles
