@@ -14,6 +14,6 @@
 [alias]
 	siupdate = submodule update --init
 	smupdate = submodule update --remote --merge
-	l = log --all --decorate --oneline --graph
-	s = status
-        acm = add -A && git commit -m
+	l = !git log --all --decorate --oneline --graph
+	s = !git status
+        acm = !git add -A && git commit -m
