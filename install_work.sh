@@ -13,6 +13,8 @@ unset file;
 
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+cat .git_user_work .git_config_wo_user > .gitconfig
+
 ln -sf "$DOTFILES_DIR/.gitconfig" ~
 ln -sf "$DOTFILES_DIR/.gitignore_global" ~
 ln -sf "$DOTFILES_DIR/.bashrc" ~
