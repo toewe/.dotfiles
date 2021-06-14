@@ -35,7 +35,11 @@ alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
 
 # update
+<<<<<<< HEAD
 alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+=======
+alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+>>>>>>> 62c9c7229918feda825b26caf1e8406f3aa77d37
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
