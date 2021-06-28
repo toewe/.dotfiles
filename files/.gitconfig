@@ -1,6 +1,6 @@
 [user]
 	name = Simon Baumann
-	email = simon.baumann@hhi-extern.fraunhofer.de
+	email = simon.baumann@hhi.fraunhofer.de
 [core]
 	excludesfile = ~/.gitignore_global
 [diff]
